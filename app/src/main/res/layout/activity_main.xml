@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:background="@drawable/backg">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Pedestrian Safety Catch"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:background="@drawable/sinho"
+        android:onClick="myListener1"
+        android:text="시작" />
+
+    <Button
+        android:id="@+id/explainbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="설명"
+        android:textColor="@color/colorPrimaryDark"
+        android:onClick="myListener2"/>
+
+    <Button
+        android:id="@+id/productbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="myListener3"
+        android:text="Product By"
+        android:textColor="@color/colorPrimary" />
+
+
+</LinearLayout>
